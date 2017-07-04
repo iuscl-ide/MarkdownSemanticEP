@@ -1,5 +1,5 @@
 ---
-Markdown Semantic Eclipse Plug-in - (c) 2017 markdownsemanticep.org
+Markdown Semantic Eclipse Plug-in - 2017 markdownsemanticep.org
 ---
 
 ## <p align="center">Markdown Semantic Eclipse Plug-in</p>
