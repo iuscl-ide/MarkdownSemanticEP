@@ -7,6 +7,6 @@
         <property name='p2.timestamp' value='201707041233' />
     </properties>
     <children size='1'>
-        <child location='jar:https://github.com/iuscl-ide/MarkdownSemanticEP/releases/download/1.0.0.201707041233/org.markdownsemanticep_1.0.0.201707041233.zip!/' />
+        <child location='jar:https://github.com/iuscl-ide/MarkdownSemanticEP/releases/download/v1.0.0.201707041233/org.markdownsemanticep_1.0.0.201707041233.zip!/' />
     </children>
 </repository>
