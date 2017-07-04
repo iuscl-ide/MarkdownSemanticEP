@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/autolink-0.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-abbreviation-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-aside-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-autolink-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-definition-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-emoji-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-footnotes-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-gfm-strikethrough-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-ins-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-jekyll-front-matter-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-superscript-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-tables-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-toc-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/ext/flexmark-ext-typographic-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/flexmark-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/flexmark-formatter-0.20.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/flexmark/flexmark-util-0.20.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk7_64bit"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

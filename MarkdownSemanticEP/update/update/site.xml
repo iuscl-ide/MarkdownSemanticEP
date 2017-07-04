@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Markdown Semantic Eclipse Plug-in Update Site" url="http://markdownsemanticep.org/update">
+      Markdown Semantic Eclipse Plug-in Update Site - http://markdownsemanticep.org/update
+   </description>
+   <feature url="features/org.markdownsemanticep_1.0.0.qualifier.jar" id="org.markdownsemanticep" version="1.0.0.qualifier">
+      <category name="org.markdownsemanticep.updatesite.category"/>
+   </feature>
+   <category-def name="org.markdownsemanticep.updatesite.category" label="Markdown Semantic Eclipse Plug-in Distribution">
+      <description>
+         Markdown Semantic Eclipse Plug-in Distribution - http://markdownsemanticep.org/update; This software is distributed under the terms of: Eclipse Public License v1.0 - http://www.eclipse.org/org/documents/epl-v10.html
+      </description>
+   </category-def>
+</site>

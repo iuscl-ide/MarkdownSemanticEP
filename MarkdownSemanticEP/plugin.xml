@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.markdownsemanticep.editors.MarkdownSemanticEPEditor"
+            contributorClass="org.markdownsemanticep.editors.MarkdownSemanticEPEditorContributor"
+            extensions="md"
+            id="org.markdownsemanticep.editors.MarkdownSemanticEPEditor"
+            name="Markdown Semantic Editor"
+            icon="icon/MarkdownSemanticEP.gif">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="org.markdownsemanticep.preferences.MarkdownSemanticEPRootPreferencesPage"
+            id="org.markdownsemanticep.preferences.MarkdownSemanticEPRootPreferencesPage"
+            name="Markdown Semantic">
+      </page>
+      <page
+            class="org.markdownsemanticep.preferences.MarkdownSemanticEPDisplayPreferencesPage"
+            id="org.markdownsemanticep.preferences.MarkdownSemanticEPDisplayPreferencesPage"
+            name="Display"
+            category="org.markdownsemanticep.preferences.MarkdownSemanticEPRootPreferencesPage">
+      </page>
+   </extension>
+</plugin>

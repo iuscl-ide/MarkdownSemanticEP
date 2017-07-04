@@ -1,0 +1,37 @@
+<!-- Markdown Semantic Eclipse Plug-in - (c) 2017 markdownsemanticep.org -->
+
+<project name="MarkdownSemanticEP_create_distribution" default="create">
+
+	<property name="release.timestamp" value="201707041233"/>
+	<property name="release.version" value="1.0.0.${release.timestamp}"/>
+	<property name="home.folder" value="${REPLACED_FROM_ANT_RUN}"/>
+
+	<target name="create">
+
+		<jar destfile="${home.folder}/MarkdownSemanticEP/update/releases/org.markdownsemanticep_${release.version}.zip">
+			<fileset dir="${home.folder}/MarkdownSemanticEP/update/MarkdownSemanticEP_UpdateSite">
+				<include name="features/org.markdownsemanticep_${release.version}.jar"/>
+				<include name="plugins/org.markdownsemanticep_${release.version}.jar"/>
+				<include name="artifacts.jar"/>
+				<include name="content.jar"/>
+				<include name="site.xml"/>
+			</fileset>
+			<manifest>
+				<attribute name="Implementation-Title" value="Markdown Semantic Eclipse Plug-in" />
+				<attribute name="Implementation-Version" value="${release.version}" />
+				<attribute name="Implementation-Vendor" value="markdownsemanticep.org" />
+			</manifest>
+		</jar>
+		
+		<copy file="${home.folder}/MarkdownSemanticEP/update/update/compositeArtifacts.xml"
+			tofile="${home.folder}/docs/update/compositeArtifacts.xml" overwrite="true"/>
+		<copy file="${home.folder}/MarkdownSemanticEP/update/update/compositeContent.xml"
+			tofile="${home.folder}/docs/update/compositeContent.xml" overwrite="true"/>
+		
+		<replace file="${home.folder}/docs/update/compositeArtifacts.xml" token="{{release.timestamp}}" value="${release.timestamp}"/>
+		<replace file="${home.folder}/docs/update/compositeArtifacts.xml" token="{{release.version}}" value="${release.version}"/>
+		<replace file="${home.folder}/docs/update/compositeContent.xml" token="{{release.timestamp}}" value="${release.timestamp}"/>
+		<replace file="${home.folder}/docs/update/compositeContent.xml" token="{{release.version}}" value="${release.version}"/>
+		
+	</target>
+</project>

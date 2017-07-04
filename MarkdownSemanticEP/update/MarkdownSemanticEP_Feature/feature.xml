@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.markdownsemanticep"
+      label="Markdown Semantic Eclipse Plug-in"
+      version="1.0.0.qualifier"
+      provider-name="markdownsemanticep.org"
+      plugin="org.markdownsemanticep">
+
+   <description url="http://markdownsemanticep.org">
+      Markdown Semantic Eclipse Plug-in
+   </description>
+
+   <copyright>
+      Copyright 2017 markdownsemanticep.org - http://markdownsemanticep.org
+   </copyright>
+
+   <license url="">
+      This software is distributed under the terms of:
+Eclipse Public License v1.0 - http://www.eclipse.org/org/documents/epl-v10.html
+http://www.eclipse.org/legal/eplfaq.php
+
+Two small things to keep in mind:
+1/ This software is provided &quot;AS IS&quot; without warranty of any kind
+2/ You CANNOT modify this software and then distribute the modified version without making available the modified source
+   </license>
+
+   <url>
+      <update label="Markdown Semantic Eclipse Plug-in Update Site" url="http://markdownsemanticep.org/update"/>
+   </url>
+
+   <plugin
+         id="org.markdownsemanticep"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

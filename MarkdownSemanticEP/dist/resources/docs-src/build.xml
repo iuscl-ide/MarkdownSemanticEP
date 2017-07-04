@@ -1,0 +1,22 @@
+<!-- Markdown Semantic Eclipse Plug-in - (c) 2017 markdownsemanticep.org -->
+
+<project name="MarkdownSemanticEP_create_docs" default="create">
+
+	<property name="home.folder" value="${REPLACED_FROM_ANT_RUN}"/>
+	
+	<target name="create">
+    	<delete includeEmptyDirs="true" quiet="true">
+			<fileset dir="${home.folder}/docs">
+    			<include name="**/*"/>
+			</fileset>
+		</delete>
+		<copy todir="${home.folder}/docs">
+			<fileset dir="${home.folder}//MarkdownSemanticEP/dist/resources/docs-src">
+				<include name="**/*"/>
+				<exclude name="**/*.md"/>
+				<exclude name="**/*.prefs"/>
+				<exclude name="**/build.xml"/>
+			</fileset>
+		</copy>
+	</target>
+</project>	

@@ -1,0 +1,106 @@
+/* Markdown Semantic Eclipse Plug-in - (c) 2017 markdownsemanticep.org */
+
+
+/* Markdown Semantic body */
+
+.bodyContainerMDSE {
+	font-family: ${TextFontFamily} !important;
+	font-size: ${TextFontSize} !important;
+	text-align: ${TextAlign} !important;
+    text-justify: inter-word !important;
+    padding: 1em 0em !important;
+}
+
+h1 {
+	font-family: ${HeaderFontFamily} !important;
+	font-size: ${Header1FontSize} !important;
+}
+
+h2 {
+	font-family: ${HeaderFontFamily} !important;
+	font-size: ${Header2FontSize} !important;
+}
+
+h3 {
+	font-family: ${HeaderFontFamily} !important;
+	font-size: ${Header3FontSize} !important;
+}
+
+h4 {
+	font-family: ${HeaderFontFamily} !important;
+	font-size: ${Header4FontSize} !important;
+}
+
+h5 {
+	font-family: ${HeaderFontFamily} !important;
+	font-size: ${Header5FontSize} !important;
+}
+
+h6 {
+	font-family: ${HeaderFontFamily} !important;
+	font-size: ${Header6FontSize} !important;
+}
+
+
+/* Markdown Semantic code */
+
+.inlinecodeMDSE {
+	border-radius: 0.5rem;
+	padding: 0.2rem 0.5rem;
+	vertical-align: baseline; 
+}
+
+.grayercodeMDSE {
+	background-color: rgb(236, 238, 240) !important;
+}
+
+.graycodeMDSE {
+	background-color: rgb(246, 248, 250) !important;
+}
+
+.yellowercodeMDSE {
+	background-color: rgb(254, 254, 190) !important;
+}
+
+.yellowcodeMDSE {
+	background-color: rgb(255, 255, 225) !important;
+}
+
+.segment.basic {
+	border-radius: 0.5rem !important;
+}
+
+kbd,
+pre,
+samp {
+	font-family: ${CodeFontFamily} !important;
+	font-size: ${CodeFontSize} !important;
+	font-weight: normal !important;
+	line-height: 1em !important;
+	overflow: visible !important;
+}
+
+code {
+	font-family: ${CodeFontFamily} !important;
+	font-size: ${CodeFontSize} !important;
+	font-weight: normal !important;
+	line-height: 1em !important;
+	overflow-x: auto !important;
+	overflow-y: visible !important;
+}
+
+
+/* Markdown Semantic image */
+
+.inlineImageMDSE {
+	padding: 0.2rem 0rem;
+	max-width: 100%;
+	vertical-align: bottom;
+}
+
+.centeredImageMDSE {
+	padding: 0.2rem 0rem;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
