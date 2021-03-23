@@ -2,6 +2,8 @@
 Markdown Semantic Eclipse Plug-in - 2017 markdownsemanticep.org
 ---
 
+**This plugin is now deprecated (no longer maintained).** A new plugin [Emdepub](http://emdepub.org) ([GitHub](https://github.com/iuscl-ide/emdepub)) is doing the same but using more "modern" Eclipse technologies, and can also create ePub books.
+
 ## <p align="center">Markdown Semantic Eclipse Plug-in</p>
 
 Markdown Semantic is an Eclipse plug-in that displays and edits [Markdown (.md)](http://daringfireball.net/projects/markdown/syntax) files.
@@ -12,7 +14,7 @@ It's based on two components:
 
 It also uses [highlight.js](https://highlightjs.org/) to format rendered source code
 
-The main goals are speed and quality for both the syntax highlight and the resulted HTML. These qualities don’t seem to be entirely fulfilled by the existing Markdown Eclipse plug-ins 
+The main goals are speed and quality for both the syntax highlight and the resulted HTML. These qualities donâ€™t seem to be entirely fulfilled by the existing Markdown Eclipse plug-ins 
 
 Besides the normal MD formatting, some particular preferences can be applied (such as text justify, center headers) but these will be visible only on the exported HTML, not if the MD is rendered in another engine
 
