@@ -1,7 +1,3 @@
----
-Markdown Semantic Eclipse Plug-in - 2017 markdownsemanticep.org
----
-
 **This plugin is now deprecated (no longer maintained).** A new plugin [Emdepub](http://emdepub.org) ([GitHub](https://github.com/iuscl-ide/emdepub)) is doing the same but using more "modern" Eclipse technologies, and can also create ePub books.
 
 ## <p align="center">Markdown Semantic Eclipse Plug-in</p>
